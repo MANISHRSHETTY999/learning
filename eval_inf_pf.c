@@ -3,7 +3,7 @@
 #include<math.h>
 #define MAX 20
 
-void push(int s[MAX], int *top, int elem)
+void push(int s[MAX], int *top, int elem)//function to push
 {
     if(*top == MAX - 1)
     {
